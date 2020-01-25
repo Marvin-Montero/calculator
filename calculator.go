@@ -9,35 +9,35 @@ func main() {
   var num1, num2, result int
 
   for{
-      fmt.Println("Selecione una del menu:")
-      fmt.Println("1-Suma \n2-Resta \n3-Multiplicar \n4-Division")
+      fmt.Println("Select one option from the menu:")
+      fmt.Println("1-Addition \n2-Subtraction \n3-Multiplication \n4-Division")
       fmt.Scanf("%d\n", &opc)
 
-      fmt.Println("Ingrese el 1er numero: ")
+      fmt.Println("Type the first number: ")
       fmt.Scanf("%d\n", &num1)
 
-      fmt.Println("SIngrese el 2do numero: ")
+      fmt.Println("Type the second number: ")
       fmt.Scanf("%d\n", &num2)
 
       if opc == 1{
 
           result = num1+num2
-          fmt.Printf("El resultado de la suma es %d\n", result)
+          fmt.Printf("The result of the addition is %d\n", result)
 
       }else if opc == 2{
 
           result = num1-num2
-          fmt.Printf("El resultado de la resta es %d\n", result)
+          fmt.Printf("The result of the subtraction is %d\n", result)
 
       }else if opc == 3{
 
           result = num1*num2
-          fmt.Printf("El resultado de la multiplicacion es %d\n", result)
+          fmt.Printf("The result of the multiplication is %d\n", result)
 
       }else if opc == 4{
 
           result = num1/num2
-          fmt.Printf("El resultado de la division es %d\n", result)
+          fmt.Printf("The result of the division is %d\n", result)
 
     }
 
